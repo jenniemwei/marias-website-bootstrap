@@ -14,6 +14,7 @@ body {
 }
 section {
   margin: 10% 0;
+  overflow: hidden;
 }
 
 ol{
@@ -65,7 +66,11 @@ h6 {
     width:40%;
     padding:.5em;
     float:left;}
-
+.col-30{
+    width:30%;
+    padding:.5em;
+    float:left;
+}
 .col-20{
     width:20%;
     padding:.5em;
@@ -134,7 +139,7 @@ td {
   }
 
 /* image styles */
-img{
+img, iframe{
     width:100%;
     height:100%;
     object-fit:cover;
