@@ -16,7 +16,7 @@ section {
   overflow: hidden;
   margin:0;
 }
-/* ids for nav */
+/* shop styles*/
 
 .shop-section, #shops {
     background-color: white;
@@ -136,7 +136,7 @@ nav li {
   padding: 0;
 }
 
-/* shows table */
+/* shows table styles */
 table {
   margin: 2em 0;
   width: 100%;
@@ -182,6 +182,7 @@ iframe {
   object-fit: cover;
   margin-top:0;
 }
+
 
 .tracklist{
     padding:0 4em;
@@ -252,5 +253,8 @@ iframe {
   .col-33{
     padding-top: 1em;
     width:100%;
+  }
+  #hero-img{
+    height:20vh
   }
 }
