@@ -13,13 +13,14 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
-<title>The Marias</title>
+<title>The Marías </title>
 </head>
 
 <body>
+    <!-- responsive navbar -->
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">The Marias</a>
+            <a class="navbar-brand" href="#">the marías </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,20 +28,22 @@
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item px-3">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="#">home</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="#music">Music</a>
+                        <a class="nav-link" href="#music">music</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="#shop">Shop</a>
+                        <a class="nav-link" href="#shop">shop</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- photo carousel hero section/container -->
+     <section class="container-fluid gx-0">
     <div id="carouselExampleIndicators" class="carousel slide mb-5">
-        
+        <!-- indicator for what slide of carousel is active -->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -49,11 +52,13 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
         </div>
+        <!-- carousel content with images -->
         <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="assets/marias-2.jpeg" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-item active">
+                <!-- first slide of carousel is default active -->
+                <img src="assets/marias-2.jpeg" class="d-block w-100 img-fluid" alt="...">
 
-        </div>
+            </div>
 
             <div class="carousel-item">
                 <img src="assets/submarine-tour-banner.jpg" class="d-block w-100 img-fluid" alt="...">
@@ -74,14 +79,12 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
-    <section>
-
     </section>
 
-
+    <!-- music accordian section/container -->
     <section id="music" class="container-fluid my-5">
         <h1 class="py-2">MUSIC</h1>
+        <!-- bootstrap accordian for music albums/EPS -->
         <div class="accordion" id="musicAccordian">
             <div class="accordion-item">
                 <div class="accordion-header">
@@ -93,8 +96,9 @@
                 <div id="collapseSubmarine" class="accordion-collapse collapse" data-bs-parent="#musicAccordian">
                     <div class="accordion-body">
                         <div class="row justify-content-center">
+                            <!-- accordian cards rows of 2 cols at lg, drops to 1 col at md -->
                             <div class="col-md-4">
-
+                                <!-- album cover card with title and year overlay -->
                                 <div class="card">
                                     <img class="card-img" src="assets/submarine-album-cover.jpg"
                                         alt="The Marias' submarine album cover">
@@ -104,6 +108,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- tracklist card -->
                             <div class="col">
                                 <div class="card">
                                     <div class="card-body">
@@ -141,8 +146,9 @@
                 <div id="collapseCinema" class="accordion-collapse collapse " data-bs-parent="#musicAccordian">
                     <div class="accordion-body">
                         <div class="row justify-content-center">
+                            <!-- accordian cards rows of 2 col at lg, drops to 1 col at md -->
                             <div class="col-md-4">
-
+                                <!-- album cover card with title and year overlay -->
                                 <div class="card">
                                     <img class="card-img" src="assets/cinemacover.jpg"
                                         alt="The Marias' submarine album cover">
@@ -153,6 +159,7 @@
                                 </div>
                             </div>
                             <div class="col">
+                                <!-- tracklist card -->
                                 <div class="card">
                                     <div class="card-body">
                                         <h4>Tracklist</h4>
@@ -188,8 +195,9 @@
                 <div id="collapseS2" class="accordion-collapse collapse" data-bs-parent="#musicAccordian">
                     <div class="accordion-body">
                         <div class="row justify-content-center">
+                            <!-- accordian cards rows of 2 cols at lg, drops to 1 col at md -->
                             <div class="col-md-4">
-
+                                <!-- album cover card with title and year overlay -->
                                 <div class="card">
                                     <img class="card-img" src="assets/superclean2.jpg"
                                         alt="The Marias' submarine album cover">
@@ -200,6 +208,7 @@
                                 </div>
                             </div>
                             <div class="col">
+                                <!-- tracklist card -->
                                 <div class="card">
                                     <div class="card-body">
                                         <h4>Tracklist</h4>
@@ -228,8 +237,9 @@
                 <div id="collapseS1" class="accordion-collapse collapse" data-bs-parent="#musicAccordian">
                     <div class="accordion-body">
                         <div class="row justify-content-center">
+                            <!-- accordian cards rows of 2 cols at lg, drops to 1 col at md -->
                             <div class="col-md-4">
-
+                                <!-- album cover card with title and year overlay -->
                                 <div class="card">
                                     <img class="card-img" src="assets/superclean1.jpeg"
                                         alt="The Marias' submarine album cover">
@@ -240,6 +250,7 @@
                                 </div>
                             </div>
                             <div class="col">
+                                <!-- tracklist card -->
                                 <div class="card">
                                     <div class="card-body">
                                         <h4>Tracklist</h4>
@@ -262,11 +273,13 @@
 
     </section>
 
-
+    <!-- shop section/container of cards -->
     <section id="shop" class="container-fluid my-5">
         <h1 class="py-2">SHOP</h1>
+        <!-- product cards rows of 3 cols at lg, rows of 2 cols at md and 1 col at sm -->
         <div class="row gx-0 row-cols-1 row-cols-md-2 row-cols-lg-3">
             <div class="col">
+                <!-- product card -->
                 <div class="card">
                     <img class="card-img-top" src="assets/product-1.jpg" alt="">
                     <div class="card-body">
@@ -276,6 +289,7 @@
                 </div>
             </div>
             <div class="col">
+                <!-- product card -->
                 <div class="card">
                     <img class="card-img-top" src="assets/product-4.jpg" alt="">
                     <div class="card-body">
@@ -285,7 +299,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="col"></div>
+               <!-- product card -->
                 <div class="card">
                     <img class="card-img-top" src="assets/product-2.jpg" alt="">
                     <div class="card-body">
@@ -295,6 +309,7 @@
                 </div>
             </div>
             <div class="col">
+                <!-- product card -->
                 <div class="card">
                     <img class="card-img-top" src="assets/product-3.jpg" alt="">
                     <div class="card-body">
@@ -304,6 +319,7 @@
                 </div>
             </div>
             <div class="col">
+                <!-- product card -->
                 <div class="card">
                     <img class="card-img-top" src="assets/product-6.jpg" alt="">
                     <div class="card-body">
@@ -313,6 +329,7 @@
                 </div>
             </div>
             <div class="col">
+                <!-- product card -->
                 <div class="card">
                     <img class="card-img-top" src="assets/product-5.jpg" alt="">
                     <div class="card-body">
